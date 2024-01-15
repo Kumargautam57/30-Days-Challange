@@ -4,9 +4,10 @@
     box-sizing: border-box;
 
 }
+
 nav{
     width: 100%;
-    height: 75px;
+    height: 70px;
     line-height: 75px;
     padding: 0px 100px;
     position: fixed;
@@ -45,4 +46,79 @@ nav li a:hover{
     font-weight: bold;
     color: black;
     background-color: rebeccapurple;
+}
+nav .srch{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+nav .searc{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+
+
+}
+nav .btn{
+    width: 80px;
+    height: 35px;
+    color: white;
+    background: #161616;
+    border-radius: 20px solid white ;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.content{
+    width: 720px;
+    height: auto;
+    justify-content: center;
+}
+.content h2{
+    padding: 120px 50px;
+    font-size: 40px;
+    letter-spacing: 2px
+    
+}
+.content p{
+    margin-top: -100px;
+    padding-left: 20px;
+}
+.header{
+    height: 200px;
+    width: 500px;
+}
+.cn{
+width: 80px;
+height: 35px;
+margin-left: 70px;
+background-color: #ff7200;
+margin-top: 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+.cn a{
+    text-decoration: none;
+    font-style: none;
+    color:#000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: white;
+    color: white;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:-20px;
+    left: 1000px;
+    border-radius: 10px solid black;
 }
